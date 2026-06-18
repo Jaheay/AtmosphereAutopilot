@@ -276,6 +276,24 @@ namespace AtmosphereAutopilot
         [AutoGuiAttr("desired_pitch_v", false, "G5")]
         public double desired_pitch_v;
 
+        [AutoGuiAttr("trn_target_asl", false, "G5")]
+        public double trn_target_asl;
+
+        [AutoGuiAttr("trn_vessel_asl", false, "G5")]
+        public double trn_vessel_asl;
+
+        [AutoGuiAttr("trn_vessel_agl", false, "G5")]
+        public double trn_vessel_agl;
+
+        [AutoGuiAttr("trn_current_asl", false, "G5")]
+        public double trn_current_asl;
+
+        [AutoGuiAttr("trn_lookahead_asl", false, "G5")]
+        public double trn_lookahead_asl;
+
+        [AutoGuiAttr("trn_filtered_asl", false, "G5")]
+        public double trn_filtered_asl;
+
         /// <summary>
         /// Allow rotating belly-up to prevent too large negative g-forces
         /// </summary>
